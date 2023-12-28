@@ -21,6 +21,11 @@ const PostSchema=new mongoose.Schema({
         required:false,
         
     },
+    report:{
+        type:String,
+        required:false,
+        
+    },
     username:{
         type:String,
         required:true,  
